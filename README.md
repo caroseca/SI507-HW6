@@ -29,8 +29,8 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 **To complete and submit this assignment, you should:**
 
-* Fork (and clone) this repository
-* Add our instructional team as a collaborator to your fork (see instructions for adding collaborators on Canvas)
+* ~~Fork (and clone) this repository~~
+* ~~Add our instructional team as a collaborator to your fork (see instructions for adding collaborators on Canvas)~~
 * Edit this `README.md` file with answers to the questions/prompts, briefly, using Markdown formatting so that the questions appear in bulletpoints and the answers appear clearly below each respective question, *not* as bulletpoints.
 * Add all names of those who worked on this (as indicated below)
 * Make the changes that are indicated below to each of the `.html` files with JavaScript programs provided. (You'll probably do this concurrently with answering questions)
@@ -79,23 +79,39 @@ Some JavaScript code
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
 
+Comments look like this: ```//``` (forward slashes)
+
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
+
+First, the script type needs to be identified as such ```<script type="text/javascript">```. Also, in this particular code, everything starts to get moving with the onload function: ```<body onload = "displayInformation();">```.
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 
-* **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
+Seems to be like ```console.log()``` and potentially ```alert(hello)```. console.log will print out some statements in the browser's console, but alert will display a pop-up in the browser window. The latter may be annoying and not in the scope of the design for the webpage, so that may not be the outcome that you want.
 
-* **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
+* **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) ~~Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...~~**
+
+Commented out line 11, ```alert("hello");```.
+* **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and ~~replace `A name` in the web page with your own name.~~**
+
+The javascript code that targets the h1 tag needs to/did change: ```document.querySelector('h1').innerHTML = "CARA R. CANADY";```
 
 * **What does the word `document` represent in this code? Explain briefly.**
+Using https://www.w3schools.com/js/js_htmldom_document.asp on 03/19/2019 to inform my answer. The DOM is the document object module. Using this targets/controls elements/items in the HTML document and allows javascript to modify those objects/elements.
 
-* **What is happening in line 12 (
+* **What is happening in line 12 (**
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
-)? Explain, briefly (<= 2 sentences).**
+)? **Explain, briefly (<= 2 sentences).**
+
+This line finds out how many items are contained within the list tag and identifies those items with an ```#items``` tag.
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
 
-* **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
+The background color of this page is white; the CSS stylesheet gives a grayish color to the <p> tag only.
+
+* **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. ~~Then edit the code to make those boxes some shade of blue, of your choosing.~~**
+
+The <p> tag is included in the CSS stylesheet, so it only targets those HTML elements with that tag. The border size, type, and, color are also included in that styling.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
