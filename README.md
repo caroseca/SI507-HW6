@@ -109,5 +109,4 @@ $("form").submit(function(event){
 ```
 This seems to call a function when the document is ready. This function targets the `form` element specified in the HTML. The submit method that is attached to `$("form")` executes a function when the form is submitted (button is pressed) - this leads to the valid/not valid text that appears.
 
-* **~~Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.~~**
-~~ * *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.~~
+* **~~Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.** *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.~~
