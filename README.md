@@ -1,4 +1,4 @@
-# JavaScript assignment
+blah blah blah # JavaScript assignment
 
 ## Some useful resources
 * Some [JavaScript tutorials](https://www.htmldog.com/guides/javascript/)
