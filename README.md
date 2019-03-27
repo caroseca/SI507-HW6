@@ -55,10 +55,10 @@ Using https://www.w3schools.com/js/js_htmldom_document.asp on 03/19/2019 to info
 This line finds out how many items are contained within the list tag and identifies those items with an `#items` tag that is used later on to report the length of all the list items.
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
-The background color of this page is white without javascript; the CSS stylesheet gives a grayish color to the `<p>` tag only.
+The background color of this page is white without javascript; the CSS stylesheet gives a grayish color to the ``<p>`` tag only.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. ~~Then edit the code to make those boxes some shade of blue, of your choosing.~~**
-The `<p>` tag is included in the CSS stylesheet (for our purposes, lines 44-58), so it only targets those HTML elements with that tag. The border size, type, and, color are also included in that styling. Changed the color of the boxes to a periwinkle-ish blue.
+The ``<p>`` tag is included in the CSS stylesheet (for our purposes, lines 44-58), so it only targets those HTML elements with that tag. The border size, type, and, color are also included in that styling. Changed the color of the boxes to a periwinkle-ish blue.
 
 * **~~Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page.~~
 Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
