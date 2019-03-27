@@ -22,7 +22,7 @@
 ### Names of people you have worked with on this assignment
 * List everyone's names and uniqnames who have worked on this assignment with you, **including your own name, but make sure YOUR name is first and bold**
 
-* **Cara Canady (caraca)**
+* **Cara Canady (caraca)** - that's me
 * Avery Gleason (averyag) - just the first few questions in class
 * Maggie Davidson (jmaggie) - just the first few questions in class & we discussed the print question.
 
@@ -32,7 +32,7 @@
 ### The first questions address the `jsPracticeLab.html` file.
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-Comments look like this: ```//``` (forward slashes)
+Comments look like this: ```//``` (forward slashes).
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 First, the script type needs to be identified as such ```<script type="text/javascript">```. Also, in this particular code, everything starts to get moving with the onload function: ```<body onload = "displayInformation();">```. Functions throughout the body of the code execute actions or changes (this makes the program "run"). I've heard javascript described as the verb of the code.
@@ -52,13 +52,13 @@ Using https://www.w3schools.com/js/js_htmldom_document.asp on 03/19/2019 to info
 * **What is happening in line 12 (**
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? **Explain, briefly (<= 2 sentences).**
-This line finds out how many items are contained within the list tag and identifies those items with an ```#items``` tag.
+This line finds out how many items are contained within the list tag and identifies those items with an `#items` tag that is used later on to report the length of all the list items.
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
 The background color of this page is white without javascript; the CSS stylesheet gives a grayish color to the `<p>` tag only.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. ~~Then edit the code to make those boxes some shade of blue, of your choosing.~~**
-The `<p>` tag is included in the CSS stylesheet (for our purposes, lines 44-58), so it only targets those HTML elements with that tag. The border size, type, and, color are also included in that styling. Changed the color of the boxes to blue.
+The `<p>` tag is included in the CSS stylesheet (for our purposes, lines 44-58), so it only targets those HTML elements with that tag. The border size, type, and, color are also included in that styling. Changed the color of the boxes to a periwinkle-ish blue.
 
 * **~~Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page.~~
 Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
