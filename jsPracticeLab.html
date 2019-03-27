@@ -29,8 +29,16 @@
 		document.querySelector('#cheer').innerHTML += "Go blue!<br>"
 	}
 
+	function copyFunction2(){
+		document.querySelector('#cheer').innerHTML += "O Canada!<br>"
+}
+
 	function handleClick(){
 		alert("hello");
+	}
+
+	function handleSpringClick(){
+		alert("March 20, 2019")
 	}
 </script>
 <style>
@@ -41,6 +49,11 @@ p{
 	padding: 3%;
 	font-size: 1.1em;
 	line-height: 1.5;
+}
+
+#spring_button{
+	background-color: #3cb371;
+	border: 1px solid #000000;
 }
 </style>
 </head>
@@ -60,11 +73,14 @@ p{
 		The number of list items for this page: <span id = "items"></span><br/>
 		The current date/time is: <span id = "time"></span><br/>
 	</p>
+	<div>
+		<button id="spring_button" onclick=handleSpringClick()>Spring Equinox 2019</button>
+	</div>
 	<p>Some universities:</p>
 	<ul>
 		<li>Kent State</li>
 		<li>University of Pittsburgh</li>
-		<li>McGill University</li>
+		<li oncopy="copyFunction2()">McGill University</li>
 		<li>California State University Long Beach</li>
 		<li oncopy="copyFunction()">University of Michigan</li>
 	</ul>
